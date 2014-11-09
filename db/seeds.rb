@@ -91,7 +91,7 @@ post3.save
 #Blueberry Cheesecake
 post4 = Post.new (
 	title: "Blueberry Cheesecake",
-	kind: "image",
+	type: "image",
 	content: "http://graphics8.nytimes.com/images/2008/07/23/dining/23mini_CA0.ready/23mini_CA0.ready-articleLarge.jpg"
 	)
 
