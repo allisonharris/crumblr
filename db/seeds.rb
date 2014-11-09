@@ -85,7 +85,9 @@ CONTENT
 
 post3.save 
 
-8.times { post3.hearts.create}
+8.times do
+	post3.hearts.create
+end
 
 
 #Blueberry Cheesecake
