@@ -60,37 +60,9 @@ post2.save
 #Coconut Quinoa Bowl
 post3 = Post.new (
 	title: "Coconut Quinoa Bowl", 
-	kind: "text"
+	kind: "image"
 	)
-post3.content = <<CONTENT
-
-3 cups cooked quinoa
-
-1 cup Greek yogurt
-1/4 teaspoon fine grain sea salt
-2 teaspoons extra virgin olive oil
-
-1/2 cup sliced almonds
-1/2 cup shredded coconut
-1-2 medium garlic cloves, peeled
-1/4 teaspoon fine grain sea salt
-
-6-7 large kale leaves, destemmed & shredded
-
-1 lemon 
-1 avocado, pitted and sliced
-edible flowers (optional)
-
-Warm the quinoa, if it's not already hot. In the meantime, make the remaining toppings. Start by stirring the salt into the yogurt, before drizzling with the olive oil. Set aside.
-
-In a skillet over medium heat gently toast the almond slices, about half way though, add the coconut flakes to the skillet. Smash the garlic with the salt into a chunky paste, and add that to the skillet as well. Cook until the almonds and coconut are deeply golden, accented with flavor from the garlic. Transfer everything from the skillet to a small bowl, and (when cool enough) give the skillet a quick swipe with a sponge to clean it out. Add a splash of olive oil to that same skillet over medium-high heat, stir in the kale with a pinch of salt, and cook for just a minute, until the kale collapses a bit, and brightens. Squeeze a bit of lemon juice over it, and transfer out of the pan immediately.
-
-To serve, combine half of the almond coconut mixture with the quinoa in a large bowl. You can serve this individually, or family-style. Top the quinoa with the kale, plenty of the salted yogurt, and top with the remaining almond mixture, avocado, and a generous squeeze of fresh lemon juice.
-
-Serves 4.
-
-Prep time: 5 min - Cook time: 10 min
-CONTENT
+post3.content = "http://www.101cookbooks.com/mt-static/images/food/coconut_quinoa_bowl_recipe.jpg"
 
 post3.save 
 
