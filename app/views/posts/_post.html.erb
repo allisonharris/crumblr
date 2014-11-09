@@ -1,7 +1,10 @@
 <p>
 	<h2>
 	 <div class="pull-right">
-  		<3
+  		<%= form_for(Heart.new) do |f| %>
+  			<%= f.hidden_field :post_id, value: post.id %>
+  			<%= f.submit "♥", class: 'btn btn-danger'%>
+  		<% end %>
   	</div>
   		<%= link_to post.title, post %>
   	</h2>
