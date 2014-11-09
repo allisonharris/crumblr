@@ -50,9 +50,9 @@ end
 #chocolate chip cookies
 post2 = Post.new(
 	title: "Chocolate Chip Cookies", 
-	kind: "image"
+	kind: "image",
+	content: "http://graphics8.nytimes.com/images/2013/06/19/dining/19PASTRY1_SPAN/19PASTRY1_SPAN-articleLarge-v2.jpg"
 	)
-post2.content = "http://graphics8.nytimes.com/images/2013/06/19/dining/19PASTRY1_SPAN/19PASTRY1_SPAN-articleLarge-v2.jpg"
 post2.save
 
 5.times { post2.hearts.create}
@@ -60,9 +60,9 @@ post2.save
 #Coconut Quinoa Bowl
 post3 = Post.new (
 	title: "Coconut Quinoa Bowl", 
-	kind: "image"
+	kind: "image",
+	content: "http://www.101cookbooks.com/mt-static/images/food/coconut_quinoa_bowl_recipe.jpg"
 	)
-post3.content = "http://www.101cookbooks.com/mt-static/images/food/coconut_quinoa_bowl_recipe.jpg"
 
 post3.save 
 
