@@ -45,14 +45,14 @@ end
 
 
 #chocolate chip cookies
-post2 = Post.new(title: "Chocolate Chip Cookies", kind: "image")
+post2 = Post.new(title: "Chocolate Chip Cookies", type: "image")
 post2.content = "http://graphics8.nytimes.com/images/2013/06/19/dining/19PASTRY1_SPAN/19PASTRY1_SPAN-articleLarge-v2.jpg"
 post2.save
 
 5.times { post2.hearts.create}
 
 #Coconut Quinoa Bowl
-post3 = Post.new (title: "Coconut Quinoa Bowl", kind: "text")
+post3 = Post.new (title: "Coconut Quinoa Bowl", type: "text")
 post3.content = <<CONTENT
 
 3 cups cooked quinoa
